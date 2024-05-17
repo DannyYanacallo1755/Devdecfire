@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../services/auth.service'; // Ajusta la ruta según tu estructura
+import { AuthService } from '../services/auth.service'; 
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class LoginPage implements OnInit {
   email: string = '';
   password: string = '';
-
+  showRegister: boolean = false;
   registerEmail: string = '';
   registerPassword: string = '';
 
@@ -27,7 +27,7 @@ export class LoginPage implements OnInit {
       // Mostrar mensaje de error
     }
   }
-
+ 
   async register() {
     try {
       await this.authService.register(this.registerEmail, this.registerPassword);
@@ -39,4 +39,11 @@ export class LoginPage implements OnInit {
       // Mostrar mensaje de error
     }
   }
+
+
+
+
+
+
+  
 }
