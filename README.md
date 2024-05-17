@@ -21,3 +21,9 @@ Primero tenemos que tener bien configurado el apartado environments para que no 
 
 <img src="Imagenes/5.png" width="350" height="340">
 
+Despues empezamos a trabajar en app.module.ts para importar y configurar AngularFire, entre otras librerias. Aparte de hacer el llamado a la base de datos
+
+<img src="Imagenes/6.png" width="350" height="340">
+
+Modifica auth.service.ts para incluir la lógica de autenticación con Firebase.
+
