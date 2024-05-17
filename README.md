@@ -19,5 +19,5 @@ La aplicación debe tener un splash screen con su foto y la primera pantalla deb
 
 Primero tenemos que tener bien configurado el apartado environments para que no se produzca ningun error al momento de la verificacion de credenciales
 
-<img src="Imagenes/5.png" width="350" height="440">
+<img src="Imagenes/5.png" width="350" height="340">
 
