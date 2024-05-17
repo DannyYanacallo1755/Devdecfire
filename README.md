@@ -17,13 +17,8 @@ Enlace para la descarga de la aplicación: [Descargar APK](https://drive.google.
 <img src="Imagenes/4.png" width="350" height="640">
 
 
-## How To Run
+## Como funciona
 
-Instalar ionic
+Primero tenemos que tener bien configurado el apartado enviroments
 
-
-Ejecutar en iOS en cmd
-```bash
-  ionic cap open iOS
-```
 
