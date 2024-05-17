@@ -1,20 +1,53 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Blank
+      Hoja de Vida
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Datos Personales</ion-card-title>
+    </ion-card-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Nombre:</ion-label>
+          <ion-text>Danny Yanacallo</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Edad:</ion-label>
+          <ion-text>21 años</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Correo Electrónico:</ion-label>
+          <ion-text>danny9yanacallo&commat;gmail.com</ion-text>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Educación</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Universidad:</ion-label>
+          <ion-text>Tecnologia Superior en desarrollo de software</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Institución:</ion-label>
+          <ion-text>Escuela Politecnica Nacional</ion-text>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+
 </ion-content>
