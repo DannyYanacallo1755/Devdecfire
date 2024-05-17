@@ -11,10 +11,10 @@ La aplicación debe tener un splash screen con su foto y la primera pantalla deb
 Enlace para la descarga de la aplicación: [Descargar APK](https://drive.google.com/file/d/1E_xOSSMOaXnp3mVR3pGNMXhfuUzGiWYs/view?usp=drive_link)
 
 ## Capturas
-<img src="Imagenes/1.png" width="250" height="640">
-<img src="Imagenes/2.png" width="250" height="640">
-<img src="Imagenes/3.png" width="250" height="640">
-<img src="Imagenes/4.png" width="250" height="640">
+<img src="Imagenes/1.png" width="350" height="640">
+<img src="Imagenes/2.png" width="350" height="640">
+<img src="Imagenes/3.png" width="350" height="640">
+<img src="Imagenes/4.png" width="350" height="640">
 
 
 ## How To Run
